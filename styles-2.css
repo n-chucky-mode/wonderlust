@@ -263,7 +263,7 @@ label, input, legend, select {
     width: 95%;
     padding: .5rem;
 }
-/*
+
 .sr-only {
     background: var(--sunset-orange);
     height: 1rem;
@@ -275,8 +275,8 @@ label, input, legend, select {
 .sr-only:focus {
     transform: translateX(0%);
 }
-    */
-    /*added franken code*/
+    
+    /*added franken code
 .sr-only {
     position: absolute;
     width: 1px;
@@ -402,10 +402,11 @@ a:visited {
     font-style: italic;
     color: var(--sunset-orange);
 }
+/*
 span {
     font-size: 1.75em;
     color: var(--sunset-orange);
-}
+}commenting out to fix the red block situation*/
 header h1+p {
     font-size: 1.15em;
     font-weight: bold;
@@ -536,7 +537,7 @@ small {
     }
 }
 
-/* -----------------GG FIX: TRUE SR-ONLY + SKIP LINKS ----------------- */
+/* -----------------GG FIX: TRUE SR-ONLY + SKIP LINKS ----------------- 
 .sr-only {
     position: absolute !important;
     width: 1px !important;
@@ -563,3 +564,4 @@ small {
 .skip-link:focus {
     transform: translateX(0%);
 }
+*/
