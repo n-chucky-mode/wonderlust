@@ -309,30 +309,30 @@
             <!-- gg: I’m turning this into a real accessible form -->
             <form action="#" method="post">
                 <!-- gg: short helper note for screen readers + users -->
-                <p class="sr-only">Fields marked with an asterisk are required.</p>
+                <p>Fields marked with an asterisk are required.</p>
 
                 <div>
-                    <label for="first-name">First Name<span aria-hidden="true">*</span><span class="sr-only"> required</span></label>
+                    <label for="first-name">First Name<span aria-hidden="true">*</span><span> required</span></label>
                     <input id="first-name" name="firstName" type="text" autocomplete="given-name" required>
                 </div>
 
                 <div>
-                    <label for="last-name">Last Name<span aria-hidden="true">*</span><span class="sr-only"> required</span></label>
+                    <label for="last-name">Last Name<span aria-hidden="true">*</span><span> required</span></label>
                     <input id="last-name" name="lastName" type="text" autocomplete="family-name" required>
                 </div>
 
                 <div>
-                    <label for="email">Email<span aria-hidden="true">*</span><span class="sr-only"> required</span></label>
+                    <label for="email">Email<span aria-hidden="true">*</span><span> required</span></label>
                     <input id="email" name="email" type="email" autocomplete="email" required>
                 </div>
 
                 <div>
-                    <label for="phone">Phone<span aria-hidden="true">*</span><span class="sr-only"> required</span></label>
+                    <label for="phone">Phone<span aria-hidden="true">*</span><span> required</span></label>
                     <input id="phone" name="phone" type="tel" autocomplete="tel" required>
                 </div>
 
                 <fieldset id="preferred-contact">
-                <legend>Preferred Contact Method<span aria-hidden="true">*</span><span class="sr-only"> required</span></legend>
+                <legend>Preferred Contact Method<span aria-hidden="true">*</span><span> required</span></legend>
                     <div>
                         <input id="pref-email" type="radio" name="preferredContact" value="Email" required>
                         <label for="pref-email">Email</label>
