@@ -263,7 +263,7 @@ label, input, legend, select {
     width: 95%;
     padding: .5rem;
 }
-
+/*
 .sr-only {
     background: var(--sunset-orange);
     height: 1rem;
@@ -274,22 +274,10 @@ label, input, legend, select {
 }
 .sr-only:focus {
     transform: translateX(0%);
-}
+}*/
     
-    /*added franken code
+    /*added franken code*/
 .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-}
-
-.skip-link {
     background: var(--sunset-orange);
     height: 1rem;
     padding: 1.5rem;
@@ -298,10 +286,10 @@ label, input, legend, select {
     transition: transform 0.3s;
 }
 
-.skip-link:focus {
+.sr-only:focus {
     transform: translateX(0%);
 }
-/*up to here */
+/**/
 footer {
     background-color: var(--deep-navy);
     color: var(--soft-white);
@@ -402,11 +390,11 @@ a:visited {
     font-style: italic;
     color: var(--sunset-orange);
 }
-/*
+
 span {
     font-size: 1.75em;
     color: var(--sunset-orange);
-}commenting out to fix the red block situation*/
+}
 header h1+p {
     font-size: 1.15em;
     font-weight: bold;
