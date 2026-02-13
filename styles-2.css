@@ -263,6 +263,7 @@ label, input, legend, select {
     width: 95%;
     padding: .5rem;
 }
+/*
 .sr-only {
     background: var(--sunset-orange);
     height: 1rem;
@@ -274,6 +275,33 @@ label, input, legend, select {
 .sr-only:focus {
     transform: translateX(0%);
 }
+    */
+    /*added franken code*/
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.skip-link {
+    background: var(--sunset-orange);
+    height: 1rem;
+    padding: 1.5rem;
+    position: absolute;
+    transform: translateX(-250%);
+    transition: transform 0.3s;
+}
+
+.skip-link:focus {
+    transform: translateX(0%);
+}
+/*up to here */
 footer {
     background-color: var(--deep-navy);
     color: var(--soft-white);
