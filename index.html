@@ -332,7 +332,7 @@
                 </div>
 
                 <fieldset id="preferred-contact">
-                <legend>Preferred Contact Method<span aria-hidden="true">*</span><span> required</span></legend>
+                <legend>Preferred Contact Method<span aria-hidden="true">*</span><span class="sr-only"> required</span></legend>
                     <div>
                         <input id="pref-email" type="radio" name="preferredContact" value="Email" required>
                         <label for="pref-email">Email</label>
@@ -348,9 +348,9 @@
                 </fieldset>
 
                 <fieldset id="destination">
-                    <legend>Destination<span aria-hidden="true">*</span><span> required</span></legend>
+                    <legend>Destination<span aria-hidden="true">*</span><span class="sr-only"> required</span></legend>
                     <!-- gg: label connected to select for accessibility -->
-                    <label for="select-destination">Choose your destination</label>
+                    <label for="select-destination" class="sr-only">Choose your destination</label>
                     <select id="select-destination" name="destination" required>
                         <option value="" selected disabled>Choose</option>
                         <option value="Barcelona">Barcelona</option>
